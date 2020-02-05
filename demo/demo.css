@@ -1,0 +1,112 @@
+.container-content {
+  margin: 4px;
+}
+
+.content { 
+  padding: 10px;
+}
+
+.sticky { 
+  position: fixed;
+  top: 0;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.top-buffer {
+  margin-top: 8px;
+}
+
+.navbar-right-spacing {
+  margin-right: 160px;
+}
+
+.btn:focus {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.btn.active:focus {
+  color: #333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
+
+.gantt-timeframe-holiday {
+  border: solid 2px black;
+  opacity: 0.6;
+}
+
+.gantt-row-milestone {
+  font-weight: bold;
+  vertical-align: middle;
+  color: white;
+}
+
+div.live-table {
+  display: table;
+  width: 100%;
+}
+
+div.live-row {
+  display: table-row;
+}
+
+div.live-cell {
+  display: table-cell;
+  padding: 5px;
+  width: 50%;
+}
+
+textarea.live-task,
+textarea.live-row {
+  width: 100%;
+  height: 300px;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 0.9em;
+  color: #333;
+}
+
+.gantt-task-section.section-1 {
+  background-color: #00b3ee;
+  opacity: 0.5;
+}
+
+.gantt-task-section.section-2 {
+  background-color: #eb9100;
+  opacity: 0.5;
+}
+
+.gantt-task-section.section-3 {
+  background-color: #ee1400;
+  opacity: 0.5;
+}
+
+/* Customer */
+
+.gantt-side-content-tree {
+  display: block;
+  width: 300px;
+  word-wrap: break-word;
+}
+
+.gantt-column-id {
+  width: 50px;
+}
+
+.gantt-column-skill {
+  width: 130px;
+}
+
+.gantt-column-link {
+  width: 70px;
+}
+
+
